@@ -1,3 +1,3 @@
-# BenFranzi.github.io - No Fancy
+# BenFranzi.github.io
 
 Personal Site
