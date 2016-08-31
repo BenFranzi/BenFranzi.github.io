@@ -1,2 +1,2 @@
-# BenFranzi.github.io
+# BenFranzi.github.io - No-Fancy
 Personal Site
