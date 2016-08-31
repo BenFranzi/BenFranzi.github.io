@@ -4,6 +4,7 @@
 
 .bg {
   background: url('res/splash.jpg') no-repeat center center;
+  filter: blur(0);
   position: fixed;
   width: 100%;
   height: 700px; /*same height as jumbotron */
