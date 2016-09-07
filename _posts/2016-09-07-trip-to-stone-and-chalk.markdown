@@ -7,7 +7,6 @@ categories: jekyll update
 
 To day I went and visited Stone & Chalk in Circular Quay, Sydney.
 
-
 >Stone & Chalk is an independent, not-for-profit Fintech hub whose overarching objective is to help foster and accelerate the development of world-leading Fintech start-ups
 
 <cite>[Stone & Chalk][s-&-c]</cite>
