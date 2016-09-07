@@ -15,4 +15,4 @@ The things:
 
 [Instagram](https://www.instagram.com/benfranzi/)
 
-[Twitter](https://twitter.com/benjaminfranzi)
+[Twitter](https://twitter.com/benfranzi)
