@@ -1,114 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <!-- jQuery, jQuery.ui -->
-    <link href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://code.jquery.com/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-
-    <!-- Bootstrap -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-    <!--Font Awesome-->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-
-    <!-- React -->
-    <script src="https://fb.me/react-0.13.3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.js"></script>
-
-    <!--Custom Styles -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <title>BenFranzi.com</title>
 </head>
-  <body>
-    <div class="container-splash">
-      <div class="head">
-        <ul>
-          <li>contact</li>
-          <li>resume</li>
-          <li>
-            <h4>project</h4>
-              <ul>
-                <li>smart-x</li>
-                <li>react-metawidget</li>
-                <li>timetable</li>
-                <li>SPLIT</li>
-                <li>
-                  <ul>
-                    <li>GIT</li>
-                    <li>GIST</li>
-                  </ul>
-                </li>
-            </ul>
-          </li>
-        </ul>
-        <h1>Developer.</h1>
-        <p>Ben Franzi - Sydney, NSW</p>
-      </div>
-    </div>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+<style>
+  .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 
+  .title-color {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+</style>
 
-
-
-
-
-
-
-
-
-    <div class="main">
-      <div class="container">
-        <div class="control">
-          <div class="btn-group" data-toggle="buttons">
-            <!--
-              Gist - https://gist.github.com/BenFranzi
-              GitHub - https://github.com/BenFranzi
-              LinkedIn - https://au.linkedin.com/in/benjamin-franzi-0a392a11b
-              Stack Overflow - http://stackoverflow.com/users/6778830/ben-franzi
-              Twitter - https://twitter.com/benjaminfranzi
-            -->
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option1" autocomplete="off">
-                <img src="res/glyphs/gist.png" class="meicn" />
-            </label>
-            <label class="btn btn-secondary active">
-              <input type="radio" name="options" id="option2" autocomplete="off" checked>
-                <i class="fa fa-github fa-2" aria-hidden="true"></i>
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option3" autocomplete="off">
-              <i class="fa fa-linkedin-square fa-2" aria-hidden="true"></i>
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option4" autocomplete="off">
-              <i class="fa fa-stack-overflow fa-2" aria-hidden="true"></i>
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option5" autocomplete="off">
-                <i class="fa fa-twitter fa-2" aria-hidden="true"></i>
-            </label>
-          </div>
-        </div>
-      </div>
-      <div class="main-api">
-        <div class="container">
-          <p>
-            This is where the reactjs components will load information for each of the corresponding buttons
-          </p>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-    <div class="foot">
-      <footer class="footer">
-            <div class="container">
-              <p class="text-muted">Benjamin Franzi. 2016</p>
-            </div>
-      </footer>
-    </div>
+  <body style="background: #444444">
+    <div class="content">
+      <h1 class="title-color">Ben Franzi</h1>
+      <p class="title-color">I make things.</p>
+    </div>  
   </body>
 </html>
