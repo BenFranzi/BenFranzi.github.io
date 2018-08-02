@@ -1,34 +1,114 @@
----
-layout: default
----
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!DOCTYPE html>
+<html>
+    <!-- jQuery, jQuery.ui -->
+    <link href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 
-<div class="home">
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-<!--Heading-->
+    <!--Font Awesome-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
-<div class="jumbotron">
-  <div class="container">
-    <h1>I'm a developer.</h1>
-    <p style="font-size: 25px; color: #343434">I make things.</p>
-  </div>
-</div>
+    <!-- React -->
+    <script src="https://fb.me/react-0.13.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.js"></script>
 
-<!--Posts-->
-  <h1 class="page-heading">Posts</h1>
+    <!--Custom Styles -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>BenFranzi.com</title>
+</head>
+  <body>
+    <div class="container-splash">
+      <div class="head">
+        <ul>
+          <li>contact</li>
+          <li>resume</li>
+          <li>
+            <h4>project</h4>
+              <ul>
+                <li>smart-x</li>
+                <li>react-metawidget</li>
+                <li>timetable</li>
+                <li>SPLIT</li>
+                <li>
+                  <ul>
+                    <li>GIT</li>
+                    <li>GIST</li>
+                  </ul>
+                </li>
+            </ul>
+          </li>
+        </ul>
+        <h1>Developer.</h1>
+        <p>Ben Franzi - Sydney, NSW</p>
+      </div>
+    </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <!--p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p-->
 
-</div>
+
+
+
+
+
+
+    <div class="main">
+      <div class="container">
+        <div class="control">
+          <div class="btn-group" data-toggle="buttons">
+            <!--
+              Gist - https://gist.github.com/BenFranzi
+              GitHub - https://github.com/BenFranzi
+              LinkedIn - https://au.linkedin.com/in/benjamin-franzi-0a392a11b
+              Stack Overflow - http://stackoverflow.com/users/6778830/ben-franzi
+              Twitter - https://twitter.com/benjaminfranzi
+            -->
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option1" autocomplete="off">
+                <img src="res/glyphs/gist.png" class="meicn" />
+            </label>
+            <label class="btn btn-secondary active">
+              <input type="radio" name="options" id="option2" autocomplete="off" checked>
+                <i class="fa fa-github fa-2" aria-hidden="true"></i>
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option3" autocomplete="off">
+              <i class="fa fa-linkedin-square fa-2" aria-hidden="true"></i>
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option4" autocomplete="off">
+              <i class="fa fa-stack-overflow fa-2" aria-hidden="true"></i>
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option5" autocomplete="off">
+                <i class="fa fa-twitter fa-2" aria-hidden="true"></i>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="main-api">
+        <div class="container">
+          <p>
+            This is where the reactjs components will load information for each of the corresponding buttons
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="foot">
+      <footer class="footer">
+            <div class="container">
+              <p class="text-muted">Benjamin Franzi. 2016</p>
+            </div>
+      </footer>
+    </div>
+  </body>
+</html>
